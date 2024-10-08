@@ -536,6 +536,8 @@ type ProductVariables struct {
 
 	SystemPropFiles []string `json:",omitempty"`
 
+	EnableUffdGc *string `json:",omitempty"`
+
 	HelloDevice []string `json:",omitempty"`
 }
 
